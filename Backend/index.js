@@ -1,6 +1,4 @@
 require("dotenv").config();
-
-const express = require("express");
 const mongoose = require('mongoose');
 const { HoldingsModel } = require("./Model/HoldingsModel");
 const { PositionsModel } = require("./Model/PositionsModel");
